@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BkULL407bLA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jeehy\\project\\coursera_lab\\simple-api\\simple-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeehy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\jeehy\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

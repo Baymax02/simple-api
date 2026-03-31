@@ -1,0 +1,44 @@
+### Create a new user
+POST http://localhost:5000/users
+Content-Type: application/json
+X-Api-Key: supersecretkey
+
+{
+  "username": "alice",
+  "userAge": "24"
+}
+
+### Create another user
+POST http://localhost:5000/users
+Content-Type: application/json
+X-Api-Key: supersecretkey
+
+{
+  "username": "bob",
+  "userAge": "30"
+}
+
+### Get all users
+GET http://localhost:5000/users
+X-Api-Key: supersecretkey
+
+### Get a single user
+GET http://localhost:5000/users/alice
+X-Api-Key: supersecretkey
+### Update a user
+PUT http://localhost:5000/users/alice
+Content-Type: application/json
+X-Api-Key: supersecretkey
+
+{
+  "username": "alice",
+  "userAge": "26"
+}
+
+### Delete a user
+DELETE http://localhost:5000/users/bob
+X-Api-Key: supersecretkey
+
+### Verify deletion
+GET http://localhost:5000/users
+X-Api-Key: supersecretkey
